@@ -1,0 +1,1 @@
+from agrsPackage import fun_file as dwia  # function decorator

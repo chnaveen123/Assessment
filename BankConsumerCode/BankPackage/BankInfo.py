@@ -13,6 +13,10 @@ class Account:
     def Withdrawal(self,withdraw):
         self.balance =self.balance - withdraw
         return self.balance
+        
+    def __str__(self):
+        return f"name  {self.name}\nAmount :{self.balance}"
+
 
     def __eq__(self, other):
         return self.balance == other.balance

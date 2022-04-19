@@ -1,0 +1,1 @@
+from noAgrsPackage import fun_file as dec  # function decorator
